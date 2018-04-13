@@ -1,0 +1,292 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-------Reset End------------------------------------------------------------------------------------*/
+
+
+/*-------Global Start---------------------------------------------------------------------------------*/
+
+body {
+    font-family: Courier New, Courier, monospace;
+    color: #2A2A2A;
+    background-image: url("../images/rockywall.png");
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.1em;
+    margin-top: 14px;
+    padding-top: 14px;
+    padding-bottom: 9px;
+    padding-left: 6px;
+    padding-right: 6px;
+    float: left;
+    color: #faf8f2;
+    background-color: #2A2A2A;
+    border-top-left-radius: 25px; 
+    border-top-right-radius: 25px;
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.6em;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    margin-left: 20px;
+    
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    overflow: auto;
+    background-color: #D6C47C;
+    opacity: .93;
+    border-bottom: #2A2A2A solid 3px;
+    margin-bottom: 40px;
+}
+
+#topNav {
+    float: right;
+    padding-top: 36px;
+}
+
+#navItem {
+    padding-left: 8px;
+}
+.borderLeft {
+    border-left: rgba(42, 42, 42, 0.61) solid 1px;
+}
+
+
+#containerHead {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#container {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    border: #2A2A2A solid 2px;
+    min-height: 490px;
+    border-radius: 20px;
+    background-color: #faf8f291;
+}
+
+#sectionHead {
+    border-bottom: #2A2A2A solid 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    word-wrap: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #2A2A2A;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 20px;
+    word-wrap: normal;
+}
+
+.footer {
+    width: 100%;
+    height: 66px;
+    background-color: #D6C47C;
+    opacity: .95;
+    border-top: #2A2A2A solid 3px;
+    text-align: center;
+}
+
+.footText {
+    padding-top: 6px;
+}
+
+.push {
+    height: 85px;
+}
+
+/*-------Global End----------------------------------------------------------------------------------*/
+
+/*-------Index Start---------------------------------------------------------------------------------*/
+
+#myPhoto {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;    
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.indexText {
+    word-wrap: normal;
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*-------Index End-----------------------------------------------------------------------------------*/
+
+/*-------Portfolio Start-----------------------------------------------------------------------------*/
+
+.portGall {
+
+}
+
+figure {
+	border: 10px solid #DADCDB;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+	padding: 0;
+ 	z-index: 1;
+    color:#191616;
+    height: 200px;
+    width: 200px;
+}
+
+figure.portLink {
+ 	display: inline-block;
+ 	position: relative;
+	z-index: 2;
+	color:#191616;
+}
+
+figure img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+figcaption {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: .2em 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+figcaption span {
+  font-size: 14px;
+}
+
+
+
+/*-------Portfolio End-------------------------------------------------------------------------------*/
+
+/*-------Contact Start-------------------------------------------------------------------------------*/
+
+.formstyle {
+	float: ;
+    padding-left: 400px;
+    padding-bottom: 50px;
+	text-align: left;
+	
+}
+
+#formp {
+	width: 90%;
+}
+
+#firstname {
+	padding:1%;
+	margin: auto 0px;
+	border-radius: 20px;
+	color: #262424;
+	background-color:#E6E5E5;
+	text-align: center;
+	width: 250px;
+}
+
+#lastname {
+	padding:1%;
+	margin: auto 0px;
+	border-radius: 20px;
+	color: #262424;
+	background-color:#E6E5E5;
+	text-align: center;
+	width: 250px;
+}
+
+#email {
+	padding:1%;
+	margin: auto 0px;
+	border-radius: 20px;
+	color: #262424;
+	background-color:#E6E5E5;
+	text-align: center;
+	width: 250px;
+}
+
+#message {
+	padding:1%;
+	margin: auto 0px;
+	border-radius: 20px;
+	color: #262424;
+	background-color:#E6E5E5;
+	text-align: center;
+	height: 100px;
+	width: 400px;	
+}
+
+/*-------Contact End---------------------------------------------------------------------------------*/
