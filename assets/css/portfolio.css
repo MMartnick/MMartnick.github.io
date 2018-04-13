@@ -99,7 +99,7 @@ header {
     padding-top: 36px;
 }
 
-#navItem {
+.navItem {
     padding-left: 8px;
 }
 .borderLeft {
@@ -185,10 +185,6 @@ p {
 
 /*-------Portfolio Start-----------------------------------------------------------------------------*/
 
-.portGall {
-
-}
-
 figure {
 	border: 10px solid #DADCDB;
     margin-top: 20px;
@@ -230,8 +226,6 @@ figcaption span {
   font-size: 14px;
 }
 
-
-
 /*-------Portfolio End-------------------------------------------------------------------------------*/
 
 /*-------Contact Start-------------------------------------------------------------------------------*/
@@ -244,7 +238,7 @@ figcaption span {
 	
 }
 
-#formp {
+.formp {
 	width: 90%;
 }
 
