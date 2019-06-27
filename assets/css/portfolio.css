@@ -145,6 +145,12 @@ body {
     background-image: url("../images/rockywall.png");
     min-height: 100%;
     margin-bottom: -50px;
+    font-size: 12.5pt;
+}
+
+.container {
+    width: 90vw;
+    margin: auto;
 }
 
 #maintitle {
@@ -223,6 +229,13 @@ nav {
     text-decoration: none;
 }
 
+.fas {
+    font-size: 2.0em;
+    color: #060e0fce;
+    padding-right: 1.3vw;
+    text-decoration: none;
+}
+
 .images {
    
     display: inline;
@@ -231,16 +244,20 @@ nav {
 
 .desImage {
     width: 22vw;
+    margin-top: 2vh;
 }
 
 .artImage {
     width: 18vw;
     margin: 2vw;
+    margin-top: 2vh;
+    border-radius: 10px;
 }
 
 .devImage {
     width: 22vw;
     border-radius: 10px;
+    margin-right: 2vw;
 }
 
 footer {
@@ -271,13 +288,12 @@ footer {
     padding-top: 13vh;
     width: 65vw;
     z-index: 2;
-
 }
 
 #studio {
     text-align: left;
-    font-size: 5.1em;
-    font-family: "Century Gothic", "MS Serif";
+    font-size: 4.1em;
+    font-family: 'Raleway', sans-serif;
     border-left: #3F3C3C solid 3px;
     padding-left: 1vw;
     padding-bottom: 1vw;
@@ -299,11 +315,19 @@ footer {
 /*-------Portfolio Start-----------------------------------------------------------------------------*/
 
 
-
 h1 {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #3F3C3C;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+h2 {
     font-size: 1.3em;
     font-weight: bold;
     color: #00aeef;
+    padding-bottom: 2vh;
 }
 
 p {
@@ -313,28 +337,30 @@ p {
     padding-bottom: 1vh;
 }
 
-
-
 span {
     font-size: 1.1em;
     font-weight: bold;
 }
 
-section {
+article {
     width: 90vw;
-    margin: auto;
+    margin-top: 2vw;
     margin-bottom: 1.3vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
 
 }
 
-article {
-    width: 50vw;
-    margin: auto;
-    margin-bottom: 1.3vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+section {
+    align-self: auto;
+    padding-bottom: 6vw;
+
+}
+
+.project {
+    display: inline-flex;
+}
+
+.desc {
+    width: 60vw;
 }
 /*-------Media Query---------------------------------------------------------------------------------*/
 
