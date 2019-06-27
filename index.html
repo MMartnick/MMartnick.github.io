@@ -1,56 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Matthew Martnick</title>
     <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
+
 <body>
 
     <header>
-        <nav class="containerHead">
-            <h1>Matthew Martnick</h1>
-                <section id="topNav">
-                    <a class="navItem" href="index.html">Home</a>
-                    <a class="navItem borderLeft" href="portfolio.html">Portfolio</a>
-                    <a class="navItem borderLeft" href="contact.html">Contact</a>
-                </section>
+        <nav>
+            <br>
+            <a href="" class="navlink">Home</a>
+            <a href="dev" class="navlink">Web Dev</a>
+            <a href="design" class="navlink">Graphic Design</a>
+            <a href="art" class="navlink">Fine Art</a>
+            <a href="contact" class="navlink">Contact</a>
+
+            <a href="https://www.instagram.com/mmartnick/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://github.com/Martnick1/" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/matthew-martnick/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
         </nav>
     </header>
 
-    <div class="container">
-        <section id="sectionHead">
-            <h2 >About Me:</h2>
-        </section>
+    <section id="maintitle">
+        <p id="studio">MATTHEW MARTNICK</p>
+        <p id="occupation">WEB DEVELOPMENT / GRAPHIC DESIGN / FINE ART</p>
+    </section>
 
-        <section>
-                <div>
-                    <img id="myPhoto" src="assets/images/me.jpg" alt="Me"/>
-                </div>
-
-                <div>
-                    <p class="indexText"> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-                </div>
-                
-                <div>
-                    <p class="indexText">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-
-                        </p>
-                </div>
+    <section>
+            <p>
+                <i class="fas fa-code icon"></i>
+            </p>
+    
+            <h1>Web Development</h1>
+            <p>
+                This project is a prototype for a location based ARG like the existing Pokémon Go! game. The prototype uses
+                the Google Locate
+                API to render different enemy characters based on the user’s location while the gameplay itself was all
+                coded in vanilla
+                JavaScript. The entirety of this project was built from the ground up in a week and a half and was deployed
+                via Firebase
+                through Git Bash. Still in ongoing development.
+            </p>
 
             <div>
-                
-            </div>
+                    <article class="project">
+                      <h1>Web Based Augmented Reality Game</h1>
+                      <p>
+                        This project is a prototype for a location based ARG like the existing Pokémon Go! game. The prototype uses the Google Locate
+                        API to render different enemy characters based on the user’s location while the gameplay itself was all coded in vanilla
+                        JavaScript. The entirety of this project was built from the ground up in a week and a half and was deployed via Firebase
+                        through Git Bash. Still in ongoing development.
+                      </p>
+                      <br>
+                      <p>
+                        <span>Technologies:</span> HTML, CSS, JavaScript, Geo-Locate API, Firebase, Git Bash </p>
+                      <a href="https://project-one-165ac.firebaseapp.com/ " target="_blank">
+                        <p>
+                          <span>-</span> https://project-one-165ac.firebaseapp.com/ </p>
+                      </a>
+                    </article>
+                  
+                    <a href="https://project-one-165ac.firebaseapp.com/ " target="_blank">
+                      <img class="devImage" src="./assets/images/dev/arg.jpg" />
+                    </a>
+                  </div>
+                  
+                  
+                  <div>
+                    <article class="project">
+                      <h1>Recipe Search App</h1>
+                      <p>
+                        This is an early build of a social media website that allows the user to build a profile and update their inventory of ingredients
+                        and search the Spoontastic recipe database by ingredients the user has. We integrated Passport user authentication
+                        and MySQL to create a user database and retain their information. For continued scaling we plan to rework the user
+                        profile for customization and image uploads. The current build has been deployed through Heroku. Still in ongoing development.
+                      </p>
+                      <br>
+                      <p>
+                        <span>Technologies:</span> HTML, CSS, JavaScript, Spoontastic API, Heroku, Express Server, MySQL, MongoDB, Node.js, Git Bash
+                      </p>
+                      <a href="https://immense-castle-94064.herokuapp.com/ " target="_blank">
+                        <p>
+                          <span>-</span> https://immense-castle-94064.herokuapp.com/</p>
+                      </a>
+                    </article>
+                  
+                    <a href="https://immense-castle-94064.herokuapp.com/ " target="_blank">
+                      <img class="devImage" src="./assets/images/dev/fridg.jpg" />
+                    </a>
+                  </div>
+                  
+                  <div>
+                    <article class="project">
+                      <h1>Gif Search </h1>
+                      <p>
+                        This is a GIF file search engine developed using the Giphy API. Built in HTML, CSS, and JavaScript this is a basic app designed
+                        to show my strengths in those three areas. The project uses Ajax to get the API response and parse the data after searching
+                        based on one of the default search buttons or a user generated button created through the input form. This project
+                        was deployed as a git page using the Git Bash command line.
+                      </p>
+                      <br>
+                      <p>
+                        <span>Technologies:</span> HTML, CSS, JavaScript, Giphy API, Git Bash </p>
+                      <a href="https://martnick1.github.io/GifTastic/ " target="_blank">
+                        <p>
+                          <span>-</span> https://martnick1.github.io/GifTastic/ </p>
+                      </a>
+                    </article>
+                  
+                    <a href="https://martnick1.github.io/GifTastic/ " target="_blank">
+                      <img class="devImage" src="./assets/images/dev/gif.jpg" />
+                    </a>
+                  </div>
+    
         </section>
+
+    <section>
+        <p>
+            <i class="fas fa-crop icon"></i>
+        </p>
+
+        <h1>Graphic Design</h1>
+        <p>
+            This project is a prototype for a location based ARG like the existing Pokémon Go! game. The prototype uses
+            the Google Locate
+            API to render different enemy characters based on the user’s location while the gameplay itself was all
+            coded in vanilla
+            JavaScript. The entirety of this project was built from the ground up in a week and a half and was deployed
+            via Firebase
+            through Git Bash. Still in ongoing development.
+        </p>
+
+        <div class="images">
+        <img class="desImage" src="./assets/images/design/moto.png" />
+        <img class="desImage" src="./assets/images/design/eighty.png" />
+        <img class="desImage" src="./assets/images/design/lotus.png" />
+        <img class="desImage" src="./assets/images/design/logo.png" />
     </div>
 
-    <div class="push"></div>
-<footer class="footer"> 
-    <br>
-    <p>©</p>
-</footer>
+    </section>
+
+
+
+    <section>
+        <p>
+            <i class="fas fa-paint-brush icon"></i>
+        </p>
+
+        <h1>Fine Art</h1>
+        <p>
+            This project is a prototype for a location based ARG like the existing Pokémon Go! game. The prototype uses
+            the Google Locate
+            API to render different enemy characters based on the user’s location while the gameplay itself was all
+            coded in vanilla
+            JavaScript. The entirety of this project was built from the ground up in a week and a half and was deployed
+            via Firebase
+            through Git Bash. Still in ongoing development.
+        </p>
+
+        <div class="images">
+                <img class="artImage" src="./assets/images/art/blue.png" />
+                <img class="artImage" src="./assets/images/art/full.png" />
+                <img class="artImage" src="./assets/images/art/laugh.png" />
+                <img class="artImage" src="./assets/images/art/lee.png" />
+            </div>
+
+    </section>
+
+
+    <footer>
+        <p id="foottext">© 2019 Matthew Martnick</p>
+    </footer>
 
 </body>
+
 </html>
