@@ -149,7 +149,7 @@ body {
 }
 
 .container {
-    width: 90vw;
+    width: 75vw;
     margin: auto;
 }
 
@@ -238,20 +238,24 @@ nav {
 
 .images {
 
-    display: inline;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .desImage {
     width: 22vw;
     margin-top: 2vh;
+    display: inline-block;
 }
 
 .artImage {
     width: 18vw;
     margin: 2vw;
     margin-top: 2vh;
+    margin-bottom: 33.5vh;
     border-radius: 10px;
+    display: inline-block;
 }
 
 .devImage {
@@ -343,25 +347,25 @@ span {
 }
 
 article {
-    width: 90vw;
+    margin: auto;
     margin-top: 2vw;
     margin-bottom: 1.3vw;
+    padding: 2vw;
+    width: 70vw;
 
 }
 
 section {
-    align-self: auto;
-    padding-bottom: 6vw;
+    margin: auto;
+    padding-bottom: 4vw;
 
 }
 
 .project {
+    margin: auto;
     display: inline-flex;
 }
 
-.desc {
-    width: 60vw;
-}
 
 /*-------Media Query---------------------------------------------------------------------------------*/
 
