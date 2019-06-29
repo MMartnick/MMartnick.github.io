@@ -245,14 +245,15 @@ nav {
 
 .desImage {
     width: 22vw;
-    margin-top: 2vh;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
     display: inline-block;
 }
 
 .artImage {
     width: 18vw;
     margin: 2vw;
-    margin-top: 2vh;
+    margin-top: 4vh;
     margin-bottom: 33.5vh;
     border-radius: 10px;
     display: inline-block;
@@ -357,13 +358,18 @@ article {
 
 section {
     margin: auto;
-    padding-bottom: 4vw;
-
 }
 
 .project {
     margin: auto;
     display: inline-flex;
+}
+.underline {
+    border-bottom: rgba(42, 42, 42, 0.678) 4px solid;
+    width: 95vw;
+    height: 1vh;
+    margin: auto;
+    margin-bottom: 7vh;
 }
 
 
