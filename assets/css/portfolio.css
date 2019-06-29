@@ -244,17 +244,17 @@ nav {
 }
 
 .desImage {
-    width: 22vw;
+    width: 24vw;
     margin-top: 4vh;
     margin-bottom: 6vh;
     display: inline-block;
 }
 
 .artImage {
-    width: 18vw;
+    width: 20vw;
     margin: 2vw;
     margin-top: 4vh;
-    margin-bottom: 33.5vh;
+    margin-bottom: 40vh;
     border-radius: 10px;
     display: inline-block;
 }
@@ -291,6 +291,7 @@ footer {
 #maintitle {
     margin: auto;
     padding-top: 13vh;
+    padding-bottom: 20vh;
     width: 65vw;
     z-index: 2;
 }
