@@ -272,7 +272,7 @@ footer {
 
 #maintitle {
     margin: auto;
-    padding-top: 13vh;
+    padding-top: 22vh;
     padding-bottom: 20vh;
     width: 65vw;
     z-index: 2;
@@ -327,7 +327,8 @@ p {
     text-align: justify;
     text-justify: inter-word;
     line-height: 3.1vh;
-    letter-spacing: .1vw;
+    letter-spacing: .05vw;
+    word-spacing: .08vw;
     padding: 1vh;
 }
 
