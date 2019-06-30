@@ -140,46 +140,18 @@ table {
 /*-------Global Start---------------------------------------------------------------------------------*/
 
 body {
-    font-family: Courier New, Courier, monospace;
+    font-family: 'Muli', sans-serif;
     color: #2A2A2A;
     background-image: url("../images/rockywall.png");
     min-height: 100%;
     margin-bottom: -50px;
-    font-size: 12.5pt;
+    font-size: 1.6vh;
 }
 
 .container {
     width: 75vw;
-    margin: auto;
+    margin: 0 auto;
 }
-
-#maintitle {
-    margin: auto;
-    padding-top: 13vh;
-    width: 65vw;
-    z-index: 2;
-
-}
-
-#studio {
-    text-align: left;
-    font-size: 5.1em;
-    font-family: "Century Gothic", "MS Serif";
-    border-left: #3F3C3C solid 3px;
-    padding-left: 1vw;
-    padding-bottom: 1vw;
-
-}
-
-#occupation {
-    text-align: left;
-    font-size: 2.6em;
-    border-left: #3F3C3C solid 3px;
-    border-bottom: #3F3C3C solid 3px;
-    padding-left: 1.2vw;
-    padding-bottom: 1vw;
-}
-
 
 header {
     font-family: 'Raleway', sans-serif;
@@ -189,7 +161,6 @@ header {
     height: 6vh;
     color: #ffffff;
     background-color: #060e0fce;
-
 }
 
 nav {
@@ -237,7 +208,6 @@ nav {
 }
 
 .images {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,22 +230,27 @@ nav {
 .artImage {
     width: 20vw;
     margin: 2vw;
-    margin-top: 4vh;
-    margin-bottom: 40vh;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
     border-radius: 10px;
     display: inline-block;
+    border-bottom: #3F3C3C solid 3px;
+    border-right: #3F3C3C solid 3px;
 }
 
 .devImage {
-    width: 22vw;
+    width: 25vw;
     border-radius: 10px;
     margin-right: 2vw;
+    margin-bottom: 2vw;
+    border-bottom: #3F3C3C solid 3px;
+    border-right: #3F3C3C solid 3px;
 }
 
 footer {
     background-color: #060e0fce;
     height: 6vh;
-    position: fixed;
+    position: relative;
     right: 0;
     bottom: 0;
     left: 0;
@@ -305,7 +280,7 @@ footer {
 
 #studio {
     text-align: left;
-    font-size: 4.1em;
+    font-size: 3.9em;
     font-family: 'Raleway', sans-serif;
     border-left: #3F3C3C solid 3px;
     padding-left: 1vw;
@@ -315,11 +290,12 @@ footer {
 
 #occupation {
     text-align: left;
-    font-size: 2.6em;
+    font-size: 2.2em;
     border-left: #3F3C3C solid 3px;
     border-bottom: #3F3C3C solid 3px;
     padding-left: 1.2vw;
     padding-bottom: 1vw;
+    font-family: 'Muli', sans-serif;
 }
 
 
@@ -332,8 +308,11 @@ h1 {
     font-size: 1.7em;
     font-weight: bold;
     color: #3F3C3C;
-    padding-bottom: 2vh;
-    padding-top: 2vh;
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh; 
+    font-family: 'Raleway', sans-serif;
 }
 
 h2 {
@@ -341,13 +320,15 @@ h2 {
     font-weight: bold;
     color: #00aeef;
     padding-bottom: 2vh;
+    font-family: 'Raleway', sans-serif;
 }
 
 p {
     text-align: justify;
     text-justify: inter-word;
-    line-height: 1.3;
-    padding-bottom: 1vh;
+    line-height: 3.1vh;
+    letter-spacing: .1vw;
+    padding: 1vh;
 }
 
 span {
@@ -356,11 +337,8 @@ span {
 }
 
 article {
-    margin: auto;
-    margin-top: 2vw;
-    margin-bottom: 1.3vw;
-    padding: 2vw;
-    width: 70vw;
+    padding: 1vw;
+    width: 66vw;
 
 }
 
@@ -369,11 +347,16 @@ section {
 }
 
 .project {
-    margin: auto;
     display: inline-flex;
+    /*background-color: rgba(60, 60, 63, 0.116);*/
+    border-radius: 10px;
+    margin-bottom: 3vh;
+    margin-left: 1vh;
+    padding-left: 6vh;
+    padding-right: 6.5vh;
 }
 .underline {
-    border-bottom: rgba(42, 42, 42, 0.678) 4px solid;
+    border-bottom: rgba(42, 42, 42, 0.678) 2px solid;
     width: 95vw;
     height: 1vh;
     margin: auto;
