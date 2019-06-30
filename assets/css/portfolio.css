@@ -250,6 +250,13 @@ nav {
     display: inline-block;
 }
 
+.texImage {
+    width: 44vw;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+    display: inline-block;
+}
+
 .artImage {
     width: 20vw;
     margin: 2vw;
