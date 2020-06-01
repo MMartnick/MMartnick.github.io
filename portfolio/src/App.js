@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/js/Header';
+import Name from './components/js/Name';
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
               <Header></Header>
           </header>
 
-          <img src={logo} className="App-logo" alt="logo" />
+          <Name></Name>
+
+          {/*      <img src={logo} className="App-logo" alt="logo" />
           <p>
               Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -20,8 +23,8 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
           >
-              Learn React or don't
-        </a>
+            
+        </a>*/}
 
 
     </div>
